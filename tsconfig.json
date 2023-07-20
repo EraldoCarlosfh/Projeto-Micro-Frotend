@@ -2,6 +2,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@micro/buttons": [
+        "dist/micro/buttons"
+      ],
+      "@micro/cards": [
+        "dist/micro/cards"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
